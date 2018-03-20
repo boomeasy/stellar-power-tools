@@ -1,0 +1,117 @@
+/*! Spectre.css v0.5.0 | MIT License | github.com/picturepan2/spectre */
+/* Manually forked from Normalize.css */
+html {
+  font-family: sans-serif; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+  -ms-text-size-adjust: 100%; /* 3 */
+}
+body {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background: #fff;
+  color: #50596c;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: .8rem;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+h2 {
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: .5em;
+  margin-top: 0;
+}
+h2,
+.h2 {
+  font-size: 1.6rem;
+}
+.btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: .05rem solid #5755d9;
+  border-radius: .1rem;
+  color: #5755d9;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .8rem;
+  height: 1.8rem;
+  line-height: 1rem;
+  outline: none;
+  padding: .35rem .4rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s ease;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.btn.btn-success {
+  background: #32b643;
+  border-color: #2faa3f;
+  color: #fff;
+}
+.form-group:not(:last-child) {
+  margin-bottom: .4rem;
+}
+.form-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: .05rem solid #caced7;
+  border-radius: .1rem;
+  color: black;
+  font-size: .8rem;
+  height: 1.8rem;
+  line-height: 1rem;
+  outline: none;
+  padding: .35rem .4rem;
+  vertical-align: middle;
+  width: 100%;
+}
+.form-select[size],
+.form-select[multiple] {
+  height: auto;
+}
+.form-select[size] option,
+.form-select[multiple] option {
+  padding: .1rem .2rem;
+}
+.form-select:not([multiple]):not([size]) {
+  background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='%23667189'%20d='M2%200L0%202h4zm0%205L0%203h4z'/%3E%3C/svg%3E") no-repeat right .35rem center/.4rem .5rem;
+  padding-right: 1.2rem;
+}
+.form-select:focus {
+  border-color: #5755d9;
+  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+}
+.form-select.select-sm {
+  font-size: .7rem;
+  height: 1.4rem;
+  padding: .15rem 1.1rem .15rem .3rem;
+}
+.form-select.select-lg {
+  font-size: .9rem;
+  height: 2rem;
+  padding: .45rem 1.4rem .45rem .6rem;
+}
+.text-center {
+  width: 300px;
+  display: inline-block;
+}
+.row {
+  width: 100%;
+  text-align: center;
+}
